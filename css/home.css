@@ -1,0 +1,432 @@
+.home .about {
+    background: var(--section-degitalizing-background);
+    background: var(--section-degitalizing-backgroundtwo);
+    height: 700px;
+    border-radius: 20px;
+
+
+}
+
+.home .about .content {
+    position: absolute;
+    left: 28%;
+    top: 20%;
+    text-align: center;
+
+}
+
+.home .about .content h1 {
+    color: #fff;
+    font-size: 80px;
+}
+
+.home .about .content p {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.bttn_t {
+    background: linear-gradient(159deg, #2E76FF 27%, #B912FF 64%, #B912FF 75%);
+
+    border: 1px solid #2E76FF;
+    border-radius: 20px;
+    padding: 7px 30px;
+    color: #fff;
+}
+
+/* section 2 */
+.home .section_cards {
+    background-color: var(--section2-background);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.home .section_cards h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+}
+.home .section_cards .main_card{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    gap: 20px;
+    padding-top: 20px;
+}
+.home .section_cards .main_card .card_1  {
+    width: 320px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid #1D1D1D;
+    background: var(--card1--background);
+    border-radius: 10px;
+
+}
+
+.home .section_cards .main_card .card_2  {
+    width: 320px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px solid #1D1D1D;
+    background: var(--card2--background);
+    border-radius: 10px;
+
+}
+.home .section_cards .main_card .card_3  {
+    width: 320px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px solid #1D1D1D;
+    border-radius: 10px;
+    background: var(--card3--background);
+}
+.home .section_cards .main_card .card_4  {
+    width: 320px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px solid #1D1D1D;
+    background: var( --card4--background);
+    border-radius: 10px;
+}
+.home .section_cards .main_card .card_1 .card_content ,.home .section_cards .main_card .card_2 .card_content ,.home .section_cards .main_card .card_3 .card_content ,.home .section_cards .main_card .card_4 .card_content{
+    line-height: 1;
+    padding-top: 20px;
+    color: #fff !important;
+}
+
+
+.home .our_lifetime_work{
+    border: 4px solid #1D1D1D;
+    border-radius: 20px;
+    padding: 20px 20px;
+    background: var(--section3--background);
+}
+
+.home .our_lifetime_work .heading{
+    display: flex;
+    /* align-items: baseline; */
+    justify-content: space-between;
+    color: #fff;
+}
+
+.home .our_lifetime_work .heading h1{
+    font-size: 50px;
+}
+
+.home .our_lifetime_work .project{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 2px solid #1D1D1D;
+    padding-bottom: 10px;
+}
+
+
+.home .our_lifetime_work .project .pro_head{
+    font-size: 30px;
+}
+
+.home .our_lifetime_work .project .bttn_i{
+    border-radius: 100%;
+    padding:5px 10px;
+
+}
+.home .our_lifetime_work .project .bttn_i i{
+    transform: rotate(330deg);
+}
+
+.home .how_we_work{
+    background:var( --section4--background);
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px 50px;
+}
+.home .how_we_work .content h1{
+    font-size: 60px;
+}
+.home .how_we_work .content ul{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    padding-top: 50px;
+}
+.home .how_we_work .content ul li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.home .how_we_work .content p span{
+   font-size: 25px;
+}
+
+.home .how_we_work .main_cards .card{
+    width: 320px;
+    background: var(--section4card--background);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+
+}
+.home .how_we_work .main_content {
+    display: flex;
+    justify-content: space-between;
+}
+.home .how_we_work .main_cards .card i{
+    color: rgb(202, 202, 8);
+    font-size: 15px;
+}
+
+.home .how_we_work .main_cards .card .rating h1{
+    font-size: 70px;
+}
+.home .how_we_work .main_cards .card p{
+    border-bottom: 2px solid #1D1D1D;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.home .how_we_work .main_cards{
+    display: flex;
+    gap: 20px;
+}
+
+.home .how_we_work .main_cards .card_1 p{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 0;
+    border-bottom: 0
+}
+.home .how_we_work .main_cards .card_1 p span{
+    font-size: 15px;
+}
+
+
+.home .how_we_work .main_card .card_1{
+    background: var(--section4card1--background) !important;
+}
+
+.home .portfolio h1{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+}
+
+.home .portfolio .portfolio_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.home .digital{
+    background-image: url("../assets/digital-Photoroom.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .digital .content{
+    text-align: center;
+    padding: 170px 0;
+}
+.home .digital .content h1{
+    font-size: 60px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+/* responsive */
+@media (max-width: 944px) {
+    .home .our_lifetime_work .heading h1 {
+        font-size: 34px;
+    }
+    .home .our_lifetime_work .heading p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 716px) {
+    .home .our_lifetime_work .project .pro_head{
+        font-size: 20px;
+    }
+    .home .our_lifetime_work .project  .first{
+        padding-left: 73px !important;
+    }
+    .home .our_lifetime_work .heading h1 {
+        font-size: 29px;
+    }
+
+    .home .our_lifetime_work .heading p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 580px) {
+    .home .our_lifetime_work .project .pro_head{
+        font-size: 15px;
+    }
+    .home .our_lifetime_work .project  .first{
+        padding-left: 73px !important;
+    }
+    .home .our_lifetime_work .heading h1 {
+        font-size: 20px;
+    }
+
+    .home .our_lifetime_work .heading p {
+        font-size: 9px;
+    }
+    .home .our_lifetime_work .project {
+        font-size: 12px;
+    }
+    .home .our_lifetime_work .project .first {
+        padding-left: 55px !important;
+    }
+}
+@media (max-width: 468px) {
+    .home .our_lifetime_work .heading h1 {
+        font-size: 15px;
+    }
+    .home .our_lifetime_work .heading p {
+        font-size: 6px;
+    }
+    .home .our_lifetime_work .project {
+        font-size: 10px;
+    }
+    .datesvisible{
+        display: none;
+    }
+    .tagss{
+        padding-left: 0 !important;
+    }
+}
+
+@media (max-width: 916px) {
+    .home .section_cards .main_card{
+        flex-direction: column;
+    }
+    .home .section_cards .main_card .card_1 ,.home .section_cards .main_card .card_2,.home .section_cards .main_card .card_3,.home .section_cards .main_card .card_4{
+        width: 100%;
+    }
+}
+@media (max-width: 639px) {
+
+    .home .section_cards h1{
+        font-size: 38px;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .home .our_lifetime_work .project .pro_head {
+        font-size: 9px !important;
+    }
+    .home .our_lifetime_work .project .first {
+        padding-left: 36px !important;
+    }
+}
+
+@media (max-width: 462px) {
+    .home .our_lifetime_work {
+       
+        padding: 19px 4px !important;
+        
+    }
+    .home .our_lifetime_work .bttn {
+       
+        padding: 4px 9px;
+
+    }
+    /* .home .our_lifetime_work p{
+        padding-left: 0 !important;
+    } */
+}
+@media (max-width: 1299px) {
+    .home .how_we_work .main_cards .card {
+
+        height: 400px;
+    }
+
+    .home .how_we_work .content h1 {
+        font-size: 47px;
+    }
+}
+@media (max-width: 1190px) {
+
+    .home .how_we_work .content h1 {
+        font-size: 40px;
+    }
+    .home .how_we_work .content ul li{
+        font-size: 15px;
+    }
+    .home .how_we_work .content p span {
+        font-size: 21px;
+    }
+    .home .how_we_work {
+        padding: 20px 12px;
+    }
+}
+@media (max-width: 1074px) {
+    .home .how_we_work .main_content{
+        flex-direction: column;
+    }
+    .home .how_we_work .content ul{
+        text-align: center;
+        align-items: center;
+    }
+    .home .how_we_work .content ul li{
+        text-align: left;
+    }
+    .home .how_we_work .content{
+        text-align: center;
+    }
+    .home .how_we_work .main_cards{
+        flex-direction: column;
+    }
+    .home .how_we_work .main_cards .card {
+      width: 100%;
+    }
+    .home .how_we_work .main_cards .card{
+        text-align: center;
+    }
+    .home .how_we_work .main_cards .card_1 .p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+@media (max-width: 375px) {
+   
+    .home .how_we_work .content h1 {
+        font-size: 36px;
+    }
+    .home .portfolio h1 {
+     
+        font-size: 30px !important;
+    }
+    .home .digital .content h1 {
+        font-size: 31px;
+    }
+}
+@media (max-width: 540px) {
+    .home .portfolio h1 {
+     
+        font-size: 39px;
+    }
+    .home .digital .content h1 {
+        font-size: 38px;
+       
+    }
+    .home .digital .content h1 br{
+        display: none;
+    }
+}
